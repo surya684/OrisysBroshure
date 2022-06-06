@@ -1,0 +1,113 @@
+/*author : SURYA PS
+Date : 6/6/22 */
+.banner
+{
+background-image: url("images/img1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner h4
+{
+font-size: 50px;
+font-weight: bolder;
+}
+.banner img
+{
+height: auto;
+width: auto;
+}
+.first
+{
+height: 100vh;
+}
+.section2 p
+{
+font-size: 22px;
+font-weight: bold;
+}
+.section2 p::before{
+content: '{';
+color: #ff0000;
+}
+.section2 p::after{
+content: '}';
+color: #ff0000;
+}
+.margin-left
+{
+margin-left: -120px;
+}
+.course
+{
+background-image: url("images/img4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.interview
+{
+background-image: url("images/img5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.interview1
+{
+background-image: url("images/img6.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.vh-60
+{
+height: 60vh;
+}
+.interview div
+{
+background-color: rgba(0, 0, 0, 0.7);
+height: 100%;
+/*display: flex;
+align-items: center;*/
+}
+.interview1 div
+{
+background-color: rgba(0, 0, 0, 0.7);
+height: 100%;
+/*display: flex;
+
+align-items: center;*/
+}
+.sec7 h2
+{
+font-size: 32px;
+font-weight: bolder;
+}
+@media screen and (max-width:576px)
+{
+.banner
+{
+background-image: url('images/img7.jpg');
+}
+.banner h4
+{
+font-size: 25px;
+}
+.first
+{
+height: auto;
+}
+.margin-left
+{
+margin-left: 0px;
+}
+.banner img
+{
+height: 50px;
+width: 120px;
+}
+.section2 p
+{
+font-size: 18px;
+}
+.sec7 h2
+{
+font-size: 28px;
+}
+}
